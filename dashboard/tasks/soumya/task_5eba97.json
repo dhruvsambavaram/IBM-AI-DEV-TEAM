@@ -1,0 +1,32 @@
+{
+  "task_id": "task_5eba97",
+  "feature_request": "create a file which calls groq api and writes a story on the user based input and a reviewing agent for reviewing the sotry",
+  "acceptance_criteria": [],
+  "scoped_files": [],
+  "status": "blocked",
+  "current_agent": "manager_agent",
+  "plan": null,
+  "history": [
+    {
+      "agent": "pm_agent",
+      "output_summary": "runtime error: Groq API call failed: Error code: 403 - {'error': {'message': 'The model `qwen/qwen3.8-27b` is blocked at the project le",
+      "timestamp": "2026-09-19T03:13:02.653920+00:00",
+      "success": false
+    }
+  ],
+  "code_diff": null,
+  "test_results": null,
+  "review_result": null,
+  "retry_count": 0,
+  "consensus_report": {
+    "consensus_score_pct": 83.8,
+    "confidence_level": "MODERATE_CONFIDENCE",
+    "sub_scores": {
+      "pm_architect_alignment": 85.0,
+      "architect_coding_alignment": 80.0,
+      "testing_alignment": 90.0,
+      "review_rigor": 80.0
+    },
+    "is_unanimous": false
+  }
+}

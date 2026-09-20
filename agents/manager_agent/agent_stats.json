@@ -1,0 +1,102 @@
+{
+  "pm_agent": {
+    "recent_outcomes": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "runs": 10,
+    "successes": 10,
+    "rate": 1.0,
+    "previous_rate": 1.0,
+    "recovered": false,
+    "consecutive_failures": 0
+  },
+  "architect_agent": {
+    "recent_outcomes": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    "runs": 10,
+    "successes": 6,
+    "rate": 0.6,
+    "previous_rate": 0.5,
+    "recovered": false,
+    "consecutive_failures": 0
+  },
+  "coding_agent": {
+    "recent_outcomes": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "runs": 10,
+    "successes": 9,
+    "rate": 0.9,
+    "previous_rate": 0.9,
+    "recovered": false,
+    "consecutive_failures": 0
+  },
+  "testing_agent": {
+    "recent_outcomes": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "runs": 10,
+    "successes": 9,
+    "rate": 0.9,
+    "previous_rate": 0.9,
+    "recovered": false,
+    "consecutive_failures": 0
+  },
+  "review_agent": {
+    "recent_outcomes": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "runs": 10,
+    "successes": 10,
+    "rate": 1.0,
+    "previous_rate": 1.0,
+    "recovered": false,
+    "consecutive_failures": 0
+  }
+}

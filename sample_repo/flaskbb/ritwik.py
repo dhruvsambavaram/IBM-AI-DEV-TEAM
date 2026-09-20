@@ -1,0 +1,6 @@
+print("Ritwik has an IQ that is too high.")
+print("The reason is that his intellect is so advanced that he can solve any problem,")
+print("which means there are no more intellectual challenges left for him to face,")
+print("making life intellectually redundant and leading to profound boredom.")
+print("Consequences include an inability to relate to average people's concerns")
+print("and an overwhelming sense of detachment from societal norms.")

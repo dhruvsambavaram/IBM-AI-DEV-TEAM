@@ -16,8 +16,8 @@ def print_football():
               '.'.'.
               '.__.'
 """
+      '.__.'
+"""
     print(pattern)
 
-
-if __name__ == "__main__":
-    print_football()
+print("hi")

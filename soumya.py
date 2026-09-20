@@ -1,1 +1,1 @@
-print('soumya is too hot')
+print('soumya is cute and goated')

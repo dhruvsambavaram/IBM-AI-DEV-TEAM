@@ -21,7 +21,6 @@
   },
   "architect_agent": {
     "recent_outcomes": [
-      false,
       true,
       false,
       false,
@@ -30,18 +29,18 @@
       false,
       false,
       false,
-      false
+      false,
+      true
     ],
     "runs": 10,
-    "successes": 1,
-    "rate": 0.1,
-    "previous_rate": 0.2,
+    "successes": 2,
+    "rate": 0.2,
+    "previous_rate": 0.1,
     "recovered": false,
-    "consecutive_failures": 8
+    "consecutive_failures": 0
   },
   "coding_agent": {
     "recent_outcomes": [
-      true,
       false,
       false,
       false,
@@ -50,18 +49,19 @@
       true,
       false,
       false,
-      false
+      false,
+      true
     ],
     "runs": 10,
     "successes": 3,
     "rate": 0.3,
     "previous_rate": 0.3,
     "recovered": false,
-    "consecutive_failures": 3
+    "consecutive_failures": 0
   },
   "testing_agent": {
     "recent_outcomes": [
-      false,
+      true,
       true,
       true,
       true,
@@ -73,8 +73,8 @@
       true
     ],
     "runs": 10,
-    "successes": 9,
-    "rate": 0.9,
+    "successes": 10,
+    "rate": 1.0,
     "previous_rate": 0.9,
     "recovered": false,
     "consecutive_failures": 0
@@ -86,17 +86,17 @@
       true,
       true,
       true,
-      true,
       false,
       true,
       true,
-      false
+      false,
+      true
     ],
     "runs": 10,
     "successes": 8,
     "rate": 0.8,
-    "previous_rate": 0.9,
+    "previous_rate": 0.8,
     "recovered": false,
-    "consecutive_failures": 1
+    "consecutive_failures": 0
   }
 }

@@ -24,6 +24,6 @@ You are a senior Python Developer and Software Engineer. Your task is to impleme
 
 ## Stub Reflection Rules
 <!-- Added by stub Reflection Agent — will be replaced by real LLM rewrite -->
-- Explicitly verify before output: architect_agent succeeded 2/10 runs in current window (rate=20%)
-- Explicitly verify before output: failure patterns: no specific pattern identified | coding_agent succeeded 3/10 runs in current window (rate=30%)
-- Explicitly verify before output: failure patterns: no specific pattern identified
+- Explicitly verify before output: failed run: preflight syntax check failed: SyntaxError in generated code patch at line 22: unexpected indent
+- Explicitly verify before output: [unknown]: Review the failure summaries carefully and add targeted rules to the prompt to prevent each specific failure pattern from recurring.
+- Explicitly verify before output: **Complete Solutions**: Do not use placeholders, `TODO` comments, or stub functions for non-trivial logic. Implement exactly what is asked without adding unrequested features.

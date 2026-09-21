@@ -3,8 +3,20 @@ import hashlib
 
 
 def validate_password(password):
-    """
-    Validate a password against the following criteria:
+    if not password or len(password) < 8:
+        return False
+    if not re.search(r'[A-Z]', password):
+        return False
+    if not re.search(r'\d', password):
+        return False
+    if not re.search(r'[^A-Za-z0-9]', password):
+        return False
+    return True
+
+
+class User:
+    def __init__(self, user_id, full_name, email, phone, password=None):
+        self.user_id = user_id
     - At least 8 characters long
     - Contains at least one uppercase letter
     - Contains at least one number

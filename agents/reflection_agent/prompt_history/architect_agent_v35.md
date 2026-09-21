@@ -60,6 +60,6 @@ Before emitting any JSON, run through this mental checklist:
 
 ## Stub Reflection Rules
 <!-- Added by stub Reflection Agent — will be replaced by real LLM rewrite -->
-- Explicitly verify before output: failed run: architect_agent error: Architect output validation failed: scoped_files path 
-- Explicitly verify before output:  does not exist on disk and is not ma
-- Explicitly verify before output: [validation_error]: The agent's output passes JSON parsing but fails schema validation. The rewritten prompt MUST add a concrete VALID EXAMPLE of a complete correct output, and an explicit list of what fields are required and what their types must be.
+- Explicitly verify before output: architect_agent succeeded 4/10 runs in current window (rate=40%)
+- Explicitly verify before output: failure patterns: no specific pattern identified
+- Explicitly verify before output: [unknown]: Review the failure summaries carefully and add targeted rules to the prompt to prevent each specific failure pattern from recurring.

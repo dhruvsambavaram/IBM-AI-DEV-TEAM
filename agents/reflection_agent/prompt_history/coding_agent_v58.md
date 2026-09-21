@@ -24,6 +24,6 @@ You are a senior Python Developer and Software Engineer. Your task is to impleme
 
 ## Stub Reflection Rules
 <!-- Added by stub Reflection Agent — will be replaced by real LLM rewrite -->
-- Explicitly verify before output: failed run: architect_agent error: Architect output validation failed: scoped_files path 
-- Explicitly verify before output:  does not exist on disk and is not ma
+- Explicitly verify before output: failed run: architect_agent error: Architect output validation failed: scoped_files is missing or empty
 - Explicitly verify before output: [unknown]: Review the failure summaries carefully and add targeted rules to the prompt to prevent each specific failure pattern from recurring.
+- Explicitly verify before output: **Complete Solutions**: Do not use placeholders, `TODO` comments, or stub functions for non-trivial logic. Implement exactly what is asked without adding unrequested features.

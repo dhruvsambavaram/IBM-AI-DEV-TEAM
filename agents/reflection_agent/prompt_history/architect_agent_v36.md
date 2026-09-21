@@ -62,4 +62,4 @@ Before emitting any JSON, run through this mental checklist:
 <!-- Added by stub Reflection Agent — will be replaced by real LLM rewrite -->
 - Explicitly verify before output: failed run: architect_agent error: Architect output validation failed: scoped_files path 
 - Explicitly verify before output:  does not exist on disk and is not ma
-- Explicitly verify before output: [validation_error]: The agent's output passes JSON parsing but fails schema validation. The rewritten prompt MUST add a concrete VALID EXAMPLE of a complete correct output, and an explicit list of what fields are required and what their types must be.
+- Explicitly verify before output: failed run: preflight syntax check failed: SyntaxError in generated code patch at line 3: unexpected indent

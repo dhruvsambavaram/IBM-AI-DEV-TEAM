@@ -60,6 +60,6 @@ Before emitting any JSON, run through this mental checklist:
 
 ## Stub Reflection Rules
 <!-- Added by stub Reflection Agent — will be replaced by real LLM rewrite -->
-- Explicitly verify before output: failed run: architect_agent error: Architect output validation failed: scoped_files path 
-- Explicitly verify before output:  does not exist on disk and is not ma
-- Explicitly verify before output: [validation_error]: The agent's output passes JSON parsing but fails schema validation. The rewritten prompt MUST add a concrete VALID EXAMPLE of a complete correct output, and an explicit list of what fields are required and what their types must be.
+- Explicitly verify before output: failed run: architect_agent error: Architect output validation failed: scoped_files is missing or empty
+- Explicitly verify before output: [empty_output]: The agent is producing empty responses. The rewritten prompt MUST add explicit instructions to always produce a non-empty response, and to never respond with only whitespace or an empty JSON object.
+- Explicitly verify before output: **If** a path `P` **is** in `repository_files` → allowed actions: `modify`, `delete`.

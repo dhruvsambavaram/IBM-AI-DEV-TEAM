@@ -1,0 +1,60 @@
+{
+  "task_id": "task_42a003",
+  "feature_request": "Add password validation to the login system. Require at least 8 characters, one uppercase letter, one number, and one special character. Also add tests for valid and invalid passwords.",
+  "acceptance_criteria": [
+    "The login system rejects passwords with fewer than 8 characters",
+    "The login system rejects passwords that do not contain at least one uppercase letter",
+    "The login system rejects passwords that do not contain at least one number",
+    "The login system rejects passwords that do not contain at least one special character",
+    "New tests verify that all specified valid password inputs are accepted",
+    "All existing tests still pass"
+  ],
+  "scoped_files": [],
+  "status": "blocked",
+  "current_agent": "human",
+  "plan": null,
+  "history": [
+    {
+      "agent": "pm_agent",
+      "output_summary": "acceptance criteria defined (6 criteria)",
+      "timestamp": "2026-09-21T17:41:20.496535+00:00",
+      "success": true
+    },
+    {
+      "agent": "architect_agent",
+      "output_summary": "architect_agent error: Architect output validation failed: scoped_files path 'test_password_validation.py' does not exist on disk and is not ma",
+      "timestamp": "2026-09-21T17:41:20.887288+00:00",
+      "success": false
+    },
+    {
+      "agent": "architect_agent",
+      "output_summary": "architect_agent error: Architect output validation failed: scoped_files path 'test_password_validation.py' does not exist on disk and is not ma",
+      "timestamp": "2026-09-21T17:41:21.320000+00:00",
+      "success": false
+    }
+  ],
+  "code_diff": null,
+  "test_results": null,
+  "review_result": null,
+  "retry_count": 0,
+  "consensus_report": {
+    "consensus_score_pct": 72.5,
+    "confidence_level": "REQUIRES_ATTENTION",
+    "sub_scores": {
+      "pm_architect_alignment": 40.0,
+      "architect_coding_alignment": 80.0,
+      "testing_alignment": 90.0,
+      "review_rigor": 80.0
+    },
+    "is_unanimous": false
+  },
+  "run_stats": {
+    "tid": "task_42a003",
+    "status": "error",
+    "agents_used": 4,
+    "attempts": 2,
+    "files_created": 0,
+    "tests_passed": "0/0",
+    "time": "41.9 sec"
+  }
+}

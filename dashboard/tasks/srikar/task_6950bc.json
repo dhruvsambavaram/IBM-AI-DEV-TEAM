@@ -1,0 +1,59 @@
+{
+  "task_id": "task_6950bc",
+  "feature_request": "\u201cAdd a function to calculate the average of a list of numbers. Handle empty lists appropriately and add tests for normal, empty, and single-element lists.\u201d",
+  "acceptance_criteria": [
+    "The function correctly calculates the average for a list containing multiple non-zero numbers.",
+    "The function handles an empty list by returning a default value, such as 0 or null.",
+    "The function correctly calculates the average for a list containing a single element.",
+    "The function handles a list invalid input appropriately, such as returning an error or null.",
+    "All existing tests still pass."
+  ],
+  "scoped_files": [],
+  "status": "blocked",
+  "current_agent": "human",
+  "plan": null,
+  "history": [
+    {
+      "agent": "pm_agent",
+      "output_summary": "acceptance criteria defined (5 criteria)",
+      "timestamp": "2026-09-22T07:29:16.302245+00:00",
+      "success": true
+    },
+    {
+      "agent": "architect_agent",
+      "output_summary": "architect_agent error: Architect output validation failed: scoped_files path 'average.py' does not exist on disk and is not marked NEW FILE in ",
+      "timestamp": "2026-09-22T07:29:16.906214+00:00",
+      "success": false
+    },
+    {
+      "agent": "architect_agent",
+      "output_summary": "architect_agent error: Architect output validation failed: scoped_files path 'average_util.py' does not exist on disk and is not marked NEW FIL",
+      "timestamp": "2026-09-22T07:29:17.668839+00:00",
+      "success": false
+    }
+  ],
+  "code_diff": null,
+  "test_results": null,
+  "review_result": null,
+  "retry_count": 0,
+  "consensus_report": {
+    "consensus_score_pct": 72.5,
+    "confidence_level": "REQUIRES_ATTENTION",
+    "sub_scores": {
+      "pm_architect_alignment": 40.0,
+      "architect_coding_alignment": 80.0,
+      "testing_alignment": 90.0,
+      "review_rigor": 80.0
+    },
+    "is_unanimous": false
+  },
+  "run_stats": {
+    "tid": "task_6950bc",
+    "status": "error",
+    "agents_used": 4,
+    "attempts": 2,
+    "files_created": 0,
+    "tests_passed": "0/0",
+    "time": "16.8 sec"
+  }
+}

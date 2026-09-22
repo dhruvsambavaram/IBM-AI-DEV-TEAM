@@ -1,0 +1,50 @@
+{
+  "task_id": "task_5f41a5",
+  "feature_request": "\u201cAdd a function to calculate the average of a list of numbers. Handle empty lists appropriately and add tests for normal, empty, and single-element lists.\u201d",
+  "acceptance_criteria": [
+    "The function calculates the sum of the list items and divides by the count to return the correct average for a standard list.",
+    "The function executes without throwing an unhandled exception when provided with an empty list.",
+    "The function returns the single item as the average when the list contains exactly one element.",
+    "Comprehensive unit tests are added to verify normal behavior, empty list handling, and single-element list handling.",
+    "All existing tests still pass"
+  ],
+  "scoped_files": [],
+  "status": "blocked",
+  "current_agent": "human",
+  "plan": null,
+  "history": [
+    {
+      "agent": "pm_agent",
+      "output_summary": "acceptance criteria defined (5 criteria)",
+      "timestamp": "2026-09-22T07:29:42.014932+00:00",
+      "success": true
+    },
+    {
+      "agent": "architect_agent",
+      "output_summary": "architect_agent error: Architect output validation failed: scoped_files path 'average_calculator.py' does not exist on disk and is not marked N",
+      "timestamp": "2026-09-22T07:30:17.730843+00:00",
+      "success": false
+    },
+    {
+      "agent": "architect_agent",
+      "output_summary": "architect_agent error: Architect output validation failed: scoped_files path 'new_average.py' does not exist on disk and is not marked NEW FILE",
+      "timestamp": "2026-09-22T07:30:27.927963+00:00",
+      "success": false
+    }
+  ],
+  "code_diff": null,
+  "test_results": null,
+  "review_result": null,
+  "retry_count": 0,
+  "consensus_report": {
+    "consensus_score_pct": 72.5,
+    "confidence_level": "REQUIRES_ATTENTION",
+    "sub_scores": {
+      "pm_architect_alignment": 40.0,
+      "architect_coding_alignment": 80.0,
+      "testing_alignment": 90.0,
+      "review_rigor": 80.0
+    },
+    "is_unanimous": false
+  }
+}

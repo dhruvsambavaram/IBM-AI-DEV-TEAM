@@ -8385,5 +8385,107 @@
         "success": false
       }
     ]
+  },
+  {
+    "run_id": 262,
+    "timestamp": "2026-09-22T07:28:11.606346+00:00",
+    "task_id": "task_979943",
+    "agent_rates": {
+      "pm_agent": 1.0,
+      "architect_agent": 0.5,
+      "coding_agent": 0.6,
+      "testing_agent": 1.0,
+      "review_agent": 0.8
+    },
+    "reflections_triggered": [
+      "architect_agent"
+    ],
+    "agent_timings": [
+      {
+        "agent": "pm_agent",
+        "duration_s": 1.36,
+        "success": true
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 0.6,
+        "success": false
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 1.33,
+        "success": false
+      }
+    ]
+  },
+  {
+    "run_id": 263,
+    "timestamp": "2026-09-22T07:29:31.285028+00:00",
+    "task_id": "task_6950bc",
+    "agent_rates": {
+      "pm_agent": 1.0,
+      "architect_agent": 0.3,
+      "coding_agent": 0.6,
+      "testing_agent": 1.0,
+      "review_agent": 0.8
+    },
+    "reflections_triggered": [
+      "architect_agent"
+    ],
+    "agent_timings": [
+      {
+        "agent": "pm_agent",
+        "duration_s": 1.37,
+        "success": true
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 0.6,
+        "success": false
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 0.76,
+        "success": false
+      }
+    ],
+    "auto_rolled_back": [
+      "architect_agent"
+    ]
+  },
+  {
+    "run_id": 264,
+    "timestamp": "2026-09-22T07:31:03.378661+00:00",
+    "task_id": "task_5f41a5",
+    "agent_rates": {
+      "pm_agent": 1.0,
+      "architect_agent": 0.1,
+      "coding_agent": 0.6,
+      "testing_agent": 1.0,
+      "review_agent": 0.8
+    },
+    "reflections_triggered": [
+      "architect_agent"
+    ],
+    "agent_timings": [
+      {
+        "agent": "pm_agent",
+        "duration_s": 4.45,
+        "success": true
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 35.72,
+        "success": false
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 10.2,
+        "success": false
+      }
+    ],
+    "auto_rolled_back": [
+      "architect_agent"
+    ]
   }
 ]

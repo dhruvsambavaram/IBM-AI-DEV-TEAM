@@ -61,5 +61,5 @@ Before emitting any JSON, run through this mental checklist:
 ## Stub Reflection Rules
 <!-- Added by stub Reflection Agent — will be replaced by real LLM rewrite -->
 - Explicitly verify before output: failed run: architect_agent error: Architect output validation failed: scoped_files path 
-- Explicitly verify before output:  does not exist on disk and is not marked N
-- Explicitly verify before output:  does not exist on disk and is not marked NEW FILE
+- Explicitly verify before output:  does not exist on disk and is not marked NEW
+- Explicitly verify before output:  does not exist on disk and is not marked NEW FILE 

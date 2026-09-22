@@ -8487,5 +8487,105 @@
     "auto_rolled_back": [
       "architect_agent"
     ]
+  },
+  {
+    "run_id": 265,
+    "timestamp": "2026-09-22T08:43:32.700665+00:00",
+    "task_id": "task_89ffb8",
+    "agent_rates": {
+      "pm_agent": 1.0,
+      "architect_agent": 0.9,
+      "coding_agent": 0.8,
+      "testing_agent": 1.0,
+      "review_agent": 0.8
+    },
+    "reflections_triggered": [],
+    "agent_timings": [
+      {
+        "agent": "pm_agent",
+        "duration_s": 1.39,
+        "success": true
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 0.69,
+        "success": true
+      },
+      {
+        "agent": "coding_agent",
+        "duration_s": 0.0,
+        "success": false
+      }
+    ]
+  },
+  {
+    "run_id": 266,
+    "timestamp": "2026-09-22T08:44:10.893988+00:00",
+    "task_id": "task_7d7703",
+    "agent_rates": {
+      "pm_agent": 1.0,
+      "architect_agent": 0.8,
+      "coding_agent": 0.8,
+      "testing_agent": 1.0,
+      "review_agent": 0.8
+    },
+    "reflections_triggered": [],
+    "agent_timings": [
+      {
+        "agent": "pm_agent",
+        "duration_s": 1.47,
+        "success": true
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 0.51,
+        "success": true
+      },
+      {
+        "agent": "coding_agent",
+        "duration_s": 0.0,
+        "success": false
+      }
+    ]
+  },
+  {
+    "run_id": 267,
+    "timestamp": "2026-09-22T08:59:51.484580+00:00",
+    "task_id": "task_b05d17",
+    "agent_rates": {
+      "pm_agent": 1.0,
+      "architect_agent": 0.8,
+      "coding_agent": 0.8,
+      "testing_agent": 1.0,
+      "review_agent": 0.8
+    },
+    "reflections_triggered": [],
+    "agent_timings": [
+      {
+        "agent": "pm_agent",
+        "duration_s": 1.45,
+        "success": true
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 0.65,
+        "success": true
+      },
+      {
+        "agent": "coding_agent",
+        "duration_s": 17.76,
+        "success": true
+      },
+      {
+        "agent": "testing_agent",
+        "duration_s": 32.13,
+        "success": true
+      },
+      {
+        "agent": "review_agent",
+        "duration_s": 16.06,
+        "success": true
+      }
+    ]
   }
 ]

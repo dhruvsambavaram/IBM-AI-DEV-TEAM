@@ -1,4 +1,6 @@
-import users
+def is_palindrome(s):
+    s = s.lower().replace(" ", "")
+    return s == s[::-1]
 
 
 def main():
@@ -58,6 +60,33 @@ def test_password_multiple_invalid():
     assert users.validate_password("password") is False  # no uppercase, no number, no special
     assert users.validate_password("12345678") is False  # no uppercase, no special
     assert users.validate_password("PASSWORD") is False  # no number, no special
+
+
+def test_is_palindrome_valid():
+    """Test that valid palindromes are accepted."""
+    assert is_palindrome("racecar") is True
+    assert is_palindrome("madam") is True
+    assert is_palindrome("level") is True
+    assert is_palindrome("A man a plan a canal Panama") is True
+    assert is_palindrome("Was it a car or a cat I saw") is True
+
+
+def test_is_palindrome_invalid():
+    """Test that non-palindromes are rejected."""
+    assert is_palindrome("hello") is False
+    assert is_palindrome("world") is False
+    assert is_palindrome("python") is False
+
+
+def test_is_palindrome_edge_cases():
+    """Test edge cases like empty strings, single characters, and mixed case."""
+    assert is_palindrome("") is True
+    assert is_palindrome("a") is True
+    assert is_palindrome("A") is True
+    assert is_palindrome("Ab") is False
+    assert is_palindrome("Aba") is True
+    assert is_palindrome("AB") is False
+    assert is_palindrome("A B") is True
 
 
 def main():

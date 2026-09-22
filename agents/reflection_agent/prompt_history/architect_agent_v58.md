@@ -60,6 +60,6 @@ Before emitting any JSON, run through this mental checklist:
 
 ## Stub Reflection Rules
 <!-- Added by stub Reflection Agent — will be replaced by real LLM rewrite -->
-- Explicitly verify before output: failed run: NEW FILE declaration missing from scoped_files: ibm.py - Create a Python module containing a function named 
-- Explicitly verify before output:  that takes a list of numbers as input. The function should return the arithmetic mean of the list. For edge cases, if the list is empty, it should return 0.0 to handle it appropriately without crashing. NEW FILE: test_ibm.py - Create a test module that imports 
-- Explicitly verify before output:  from 
+- Explicitly verify before output: failed run: NEW FILE declaration missing from scoped_files: palindrome.py — Create a Python module with a function that normalizes a given string by removing spaces and converting to lowercase, then checks if the result is a palindrome. Handle empty strings as valid palindromes. NEW FILE: test_palindrome.py — Create a test module that imports the palindrome function. Include tests for valid palindromes (e.g., "racecar", "A man a plan a canal Panama"), non-palindromes (e.g., "hello"), and edge cases (e.g., empty string, single character, strings with multiple spaces and mixed case). Ensure all assertions align with the acceptance criteria.
+- Explicitly verify before output: [empty_output]: The agent is producing empty responses. The rewritten prompt MUST add explicit instructions to always produce a non-empty response, and to never respond with only whitespace or an empty JSON object.
+- Explicitly verify before output: **If** a path `P` **is** in `repository_files` → allowed actions: `modify`, `delete`.

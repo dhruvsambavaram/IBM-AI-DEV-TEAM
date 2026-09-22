@@ -8713,5 +8713,131 @@
         "success": false
       }
     ]
+  },
+  {
+    "run_id": 272,
+    "timestamp": "2026-09-22T09:23:09.555506+00:00",
+    "task_id": "task_c44b34",
+    "agent_rates": {
+      "pm_agent": 1.0,
+      "architect_agent": 0.6,
+      "coding_agent": 0.8,
+      "testing_agent": 1.0,
+      "review_agent": 0.8
+    },
+    "reflections_triggered": [
+      "architect_agent"
+    ],
+    "agent_timings": [
+      {
+        "agent": "pm_agent",
+        "duration_s": 1.42,
+        "success": true
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 0.43,
+        "success": false
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 3.58,
+        "success": false
+      }
+    ]
+  },
+  {
+    "run_id": 273,
+    "timestamp": "2026-09-22T09:23:54.321692+00:00",
+    "task_id": "task_30c4a1",
+    "agent_rates": {
+      "pm_agent": 1.0,
+      "architect_agent": 0.6,
+      "coding_agent": 0.8,
+      "testing_agent": 1.0,
+      "review_agent": 0.8
+    },
+    "reflections_triggered": [],
+    "agent_timings": [
+      {
+        "agent": "pm_agent",
+        "duration_s": 26.49,
+        "success": true
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 9.76,
+        "success": true
+      },
+      {
+        "agent": "coding_agent",
+        "duration_s": 0.0,
+        "success": false
+      }
+    ]
+  },
+  {
+    "run_id": 274,
+    "timestamp": "2026-09-22T09:24:19.693944+00:00",
+    "task_id": "task_1dd53c",
+    "agent_rates": {
+      "pm_agent": 1.0,
+      "architect_agent": 0.5,
+      "coding_agent": 0.8,
+      "testing_agent": 1.0,
+      "review_agent": 0.8
+    },
+    "reflections_triggered": [
+      "architect_agent"
+    ],
+    "agent_timings": [
+      {
+        "agent": "pm_agent",
+        "duration_s": 1.54,
+        "success": true
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 74.69,
+        "success": true
+      },
+      {
+        "agent": "coding_agent",
+        "duration_s": 0.0,
+        "success": false
+      }
+    ]
+  },
+  {
+    "run_id": 275,
+    "timestamp": "2026-09-22T09:25:05.753218+00:00",
+    "task_id": "task_657c41",
+    "agent_rates": {
+      "pm_agent": 1.0,
+      "architect_agent": 0.4,
+      "coding_agent": 0.8,
+      "testing_agent": 1.0,
+      "review_agent": 0.8
+    },
+    "reflections_triggered": [
+      "architect_agent"
+    ],
+    "agent_timings": [
+      {
+        "agent": "pm_agent",
+        "duration_s": 53.77,
+        "success": true
+      },
+      {
+        "agent": "architect_agent",
+        "duration_s": 8.68,
+        "success": true
+      },
+      {
+        "agent": "coding_agent",
+        "duration_s": 0.0,
+        "success": false
+      }
+    ]
   }
 ]

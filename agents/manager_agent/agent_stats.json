@@ -22,22 +22,22 @@
   "architect_agent": {
     "recent_outcomes": [
       true,
+      false,
+      false,
       true,
+      false,
       false,
       true,
       false,
       true,
-      true,
-      true,
-      true,
-      true
+      false
     ],
     "runs": 10,
-    "successes": 8,
-    "rate": 0.8,
-    "previous_rate": 0.8,
+    "successes": 4,
+    "rate": 0.4,
+    "previous_rate": 0.5,
     "recovered": false,
-    "consecutive_failures": 2
+    "consecutive_failures": 1
   },
   "coding_agent": {
     "recent_outcomes": [

@@ -60,6 +60,6 @@ Before emitting any JSON, run through this mental checklist:
 
 ## Stub Reflection Rules
 <!-- Added by stub Reflection Agent — will be replaced by real LLM rewrite -->
-- Explicitly verify before output: failed run: NEW FILE declaration missing from scoped_files: ibm.py - Create a Python module containing a function named 
-- Explicitly verify before output:  that takes a list of numbers as input. The function should return the arithmetic mean of the list. For edge cases, if the list is empty, it should return 0.0 to handle it appropriately without crashing. NEW FILE: test_ibm.py - Create a test module that imports 
-- Explicitly verify before output:  from 
+- Explicitly verify before output: failed run: architect_agent error: Architect output validation failed: scoped_files path 
+- Explicitly verify before output:  does not exist on disk and is not marked NEW FILE in
+- Explicitly verify before output: [validation_error]: The agent's output passes JSON parsing but fails schema validation. The rewritten prompt MUST add a concrete VALID EXAMPLE of a complete correct output, and an explicit list of what fields are required and what their types must be.

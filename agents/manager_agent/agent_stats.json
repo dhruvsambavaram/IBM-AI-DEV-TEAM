@@ -22,19 +22,19 @@
   "architect_agent": {
     "recent_outcomes": [
       true,
-      true,
-      true,
       false,
       true,
       true,
       true,
       true,
       true,
+      true,
+      false,
       true
     ],
     "runs": 10,
-    "successes": 9,
-    "rate": 0.9,
+    "successes": 8,
+    "rate": 0.8,
     "previous_rate": 0.8,
     "recovered": false,
     "consecutive_failures": 0
@@ -43,21 +43,21 @@
     "recent_outcomes": [
       true,
       true,
+      false,
       true,
-      true,
+      false,
       true,
       true,
       false,
       true,
-      false,
-      true
+      false
     ],
     "runs": 10,
-    "successes": 8,
-    "rate": 0.8,
+    "successes": 6,
+    "rate": 0.6,
     "previous_rate": 0.7,
     "recovered": false,
-    "consecutive_failures": 0
+    "consecutive_failures": 1
   },
   "testing_agent": {
     "recent_outcomes": [

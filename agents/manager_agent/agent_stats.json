@@ -21,21 +21,21 @@
   },
   "architect_agent": {
     "recent_outcomes": [
-      false,
-      false,
-      false,
-      false,
-      false,
+      true,
       true,
       false,
       true,
       false,
-      false
+      true,
+      true,
+      true,
+      true,
+      true
     ],
     "runs": 10,
-    "successes": 2,
-    "rate": 0.2,
-    "previous_rate": 0.2,
+    "successes": 8,
+    "rate": 0.8,
+    "previous_rate": 0.8,
     "recovered": false,
     "consecutive_failures": 2
   },
